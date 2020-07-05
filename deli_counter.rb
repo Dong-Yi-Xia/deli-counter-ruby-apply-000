@@ -4,7 +4,7 @@ def line (people)
     people.each_with_index{|x,i| the_line.push("#{i+1}. #{x}")}
     puts "The line is currently: #{the_line.join(" ")}"
   else
-   puts "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
